@@ -1,0 +1,365 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    font-family: 'Montserrat', sans-serif;
+    background-color: black;
+    font-weight: 400 ;
+}
+
+/* Section NavBar */
+
+#nav .navbar
+{
+    border: none;
+    border-left: 6px solid #d54ab6;
+    background-color: #202020;
+    width: 1000px;  
+    position: relative;
+    top: -600px;
+}
+#nav .navbar .navbar-brand
+{
+    height: 50px;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+#nav .navbar li .active
+{
+    background-color: #333 !important;
+    transition: all 0.5s;
+}
+#nav .navbar li .active:hover
+{
+    background-color: #202020 !important;
+
+}
+#nav .navbar li 
+{
+    transition: all 0.5s;
+    font-weight: 400 !important;
+    font-size: 13px;
+}
+#nav .navbar li a
+{
+    color: #f2f2f2 ;
+    padding: 15px;
+
+}
+#nav .navbar li a:hover
+{
+    color: rgb(255, 138, 95);
+}
+
+
+/* Section Home */
+#home
+{
+    height: 600px;
+    padding-bottom: 100px;
+    margin: 10px 0px 0px 0px;
+    padding-top: 30px;
+}
+#home .container-fluid .carousel-inner .carousel-item img
+{
+    height: 800px;
+    position: relative;
+    bottom: 160px;
+    width: 100%;
+}
+#home .container-fluid .carousel-control-prev
+{
+    position: absolute;
+    bottom: 300px;
+}
+#home .container-fluid .carousel-control-next
+{
+    position: absolute;
+    bottom: 300px;
+}
+#home .container-fluid .carousel-inner .carousel-item .title
+{
+    position: relative;
+    color: #fff;
+    left:600px;
+    bottom: 550px;
+    font-size: 60px !important;
+    font-weight: bold !important;
+
+}
+
+/* Section divider */
+#divider .container .row 
+{
+    width: 90%;
+    margin: auto;
+}
+#divider .container .row .col-md-4
+{
+    padding: 0px 15px;
+}
+#divider .container .row .col-md-4 .paper
+{
+    position: relative;
+    bottom: 40px;
+    padding: 40px;
+    transition: all 0.5s;
+    text-align: center;
+    color: #fff;
+}
+#divider .container .row .col-md-4 .paper:hover
+{
+    bottom: 65px;
+}
+#divider .container .row .col-md-4 .paper i
+{
+    border:#fff solid 2px;
+    border-radius:50%;
+    font-size: 30px;
+    width: 80px;
+    height: 80px;
+    line-height: 75px;
+    margin-bottom: 25px;
+}
+#divider .container .row .col-md-4 .paper h2
+{
+    font-size: 32px;
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+#divider .container .row .col-md-4 .responsive
+{
+    background-color: #c14000;
+    width: 100%;
+}
+#divider .container .row .col-md-4 .easyToUse
+{
+    background-color: #009988;
+    width: 100%;
+}
+#divider .container .row .col-md-4 .quickSupport
+{
+    background-color: #ffa500;
+    width: 100%;
+}
+
+/* Section about */
+#about .container
+{
+    width: 70%;
+    background-color: #191919;
+}
+#about .container .row .col-md-6
+{
+    padding: 0px;
+    margin: 0px;
+    color: #fff;
+}
+#about .container .row .col-md-6 h2
+{
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+#about .container .row .col-md-6 p
+{
+    margin-bottom: 10px;
+    color: rgb(100, 100, 100);
+}
+#about .container .row .col-md-6 .btn
+{
+    border-radius: 0%;
+    border: solid #fff 2px;
+    background-color: transparent;
+    font-weight: bold;
+    margin-bottom: 0px !important;
+    transition: all 0.5s;
+}
+#about .container .row .col-md-6 .btn:hover
+{
+    border:none;
+    color: black;
+    border: solid #009988 2px;
+    background-color: #009988;
+}
+
+/* Section portfolio */
+#portfolio .container
+{
+    width: 70%;
+}
+#portfolio .container .row .col-md-12
+{
+    margin: auto;
+    width: 65%;
+}
+#portfolio .container .row .col-md-12 h2
+{
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 15px;
+    color: #fff;
+}
+#portfolio .container .row .col-md-12 p
+{
+    margin-bottom: 10px;
+    color: rgb(100, 100, 100);
+    width: 65%;
+    margin: auto;
+}
+#portfolio .container .row .col-md-4
+{
+    margin: 0px;
+    padding: 0px;
+}
+#portfolio .container .row .col-md-3
+{
+    margin: 0px;
+    padding: 0px;
+}
+#portfolio .container  .btn
+{
+    border-radius: 0%;
+    border: solid #fff 2px;
+    background-color: transparent;
+    font-weight: bold;
+    margin-bottom: 0px !important;
+    transition: all 0.5s;
+}
+#portfolio .container .btn:hover
+{
+    border:none;
+    color: black;
+    border: solid #009988 2px;
+    background-color: #009988;
+}
+#portfolio  .lightbox-container
+{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0,0,0,0.55);
+    display: none;
+}
+#portfolio .lightbox-container .lightbox-item
+{
+    width: 55%;
+    height: 500px;
+    background-size: 100% 100%;
+    position: relative;
+}
+
+#portfolio .lightbox-container .lightbox-item i 
+{
+    font-size: 30px;
+    cursor: pointer;
+    color:#fff;
+    transition: all 0.5s;
+}
+#portfolio .lightbox-container .lightbox-item i:hover 
+{
+    font-size: 40px;
+    color: rgb(255, 138, 95);
+}
+#portfolio .lightbox-container .lightbox-item  #close
+{
+    position: absolute;
+    top: -35px;
+    right: 0px;
+}
+
+/* Section footer */
+#footer
+{
+    background-color: #1c1c1c ;
+}
+#footer .container
+{
+    margin: auto;
+}
+#footer .container .row
+{
+    margin: auto;
+}
+#footer .container .row .col-md-4
+{
+    margin: 20px 0px;
+    padding: 10px 40px;
+}
+#footer .container .row .col-md-4 p
+{
+    color:#808080;
+}
+#footer .container .row .col-md-4 h3
+{
+    color: #fff;
+    margin-bottom: 20px;
+    font-weight: bold;
+    padding-bottom: 8px;
+    padding-top: 15px;
+}
+#footer .container .row .col-md-4 .group input
+{
+    border-radius: 0%;
+    border: solid #fff 2px;
+    background-color: transparent;
+    font-weight: bold;
+    transition: all 0.5s;
+    padding: 10px;
+    color: #fff;
+}
+#footer .container .row .col-md-4 .group input:hover
+{
+    border:none;
+    color: #fff;
+    border: solid #c4811e 2px;
+    background-color: #c4811e;
+}
+#footer .container .row .col-md-4 .group button
+{
+    border-radius: 0%;
+    border: solid #fff 2px;
+    background-color: transparent;
+    font-weight: bold;
+    margin-bottom: 0px !important;
+    transition: all 0.5s;
+    padding: 10px;
+    color: #fff;
+}
+#footer .container .row .col-md-4 .group button:hover
+{
+    border:none;
+    color: black;
+    border: solid #009988 2px;
+    background-color: #009988;
+}
+
+/* Section copyright */
+#copyright
+{
+    margin:auto;
+}
+#copyright .container
+{
+    padding:20px 50px 10px 50px;
+
+}
+#copyright .container .row .col-md-6 i
+{
+    background-color: #1c1c1c;
+    margin:0px 0.5px;
+    padding: 10px 15px;
+    font-size: 20px;
+    color: #808080;
+    transition: all 0.5s;
+}
+#copyright .container .row .col-md-6 i:hover
+{
+    background-color: rgb(199, 90, 168);
+    color: #fff;
+}
